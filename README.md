@@ -51,12 +51,19 @@ found here  https://craftychess.com/documentation/craftydoc.html
 Example Settings:
 
 ponder on (Allows Crafty to think on your time)
+
 hash=256m (Increases Crafty's position hash to 256MB)
+
 hashp=64m (Increases Crafty's pawn hash to 64MB)
+
 egtb (Tells Crafty to use syzygy Endgame Tables)
+
 cache=32m (Increases Crafty's Endgame Table Cache to 32MB)
+
 swindle on (Allows Crafty to try to win drawn games (according to Endgame Tables))
+
 mt=4 (Increases Crafty's MaxThreads to 4 for a quad core computer)
+
 
 
 This information was pharaphrased for the personal page managed by Mr. Tracy Riegle, Carlisle Pennsylvania, USA. https://craftychess.com/
