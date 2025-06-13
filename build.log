@@ -1,0 +1,26 @@
+gcc -Wall -Wno-array-bounds -pipe -O3 -mpopcnt -D_CRT_SECURE_NO_WARNINGS -DSYZYGY -DTEST -DCPUS=4 -DWINDOWS -c crafty.c -o crafty.o
+In file included from iterate.c:1:0,
+                 from crafty.c:13:
+chess.h:53:0: warning: "CDECL" redefined
+ #  define CDECL
+ 
+In file included from c:\mingw\include\windows.h:42:0,
+                 from chess.h:50,
+                 from iterate.c:1,
+                 from crafty.c:13:
+c:\mingw\include\windef.h:126:0: note: this is the location of the previous definition
+ #define CDECL _cdecl
+ 
+In file included from iterate.c:1:0,
+                 from crafty.c:13:
+chess.h:54:0: warning: "STDCALL" redefined
+ #  define STDCALL
+ 
+In file included from c:\mingw\include\windows.h:42:0,
+                 from chess.h:50,
+                 from iterate.c:1,
+                 from crafty.c:13:
+c:\mingw\include\windef.h:127:0: note: this is the location of the previous definition
+ #define STDCALL __stdcall
+ 
+gcc -lstdc++ -o crafty crafty.o -lm

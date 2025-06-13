@@ -1,0 +1,52 @@
+# To build crafty with Microsoft Visual C++ (MSVC)
+
+# NEW TARGET FOR WINDOWS (MSVC)
+# It assumes 'crafty.c' includes all other source files (the 'single large glob' approach).
+windows-msvc:
+	@echo Building Crafty for Windows (MSVC)...
+	nmake /NOLOG /F Makefile crafty_msvc
+
+# Rule for compiling crafty.c into crafty.obj using MSVC's cl.exe
+# /c compiles only (no linking), /Fo specifies the output object file name.
+crafty.obj: crafty.c
+	cl.exe $(CFLAGS) $(opt) /c crafty.c /Fo$@
+
+# Rule for linking crafty.obj into crafty.exe using MSVC's cl.exe
+# /Fe specifies the output executable file name.
+crafty_msvc: crafty.obj
+	cl.exe $(LDFLAGS) /Fe$@ crafty.obj
+
+# Compiler flags for MSVC (cl.exe)
+# /Wall /W4: Enable all warnings, warning level 4 (strict).
+# /O2: Full optimization for speed.
+# /MP: Enable multi-processor compilation (speeds up builds on multi-core CPUs).
+# /GS-: Disable buffer security checks (might be needed for older code).
+# /Z7: Generate full debugging information.
+# /D_CRT_SECURE_NO_WARNINGS: Suppress warnings for unsafe C runtime functions.
+CFLAGS = /Wall /W4 /O2 /MP /GS- /Z7 /D_CRT_SECURE_NO_WARNINGS
+
+# Preprocessor definitions (options for Crafty)
+# -DSYZYGY: Enables Syzygy endgame tables.
+# -DTEST: Enables display of evaluation table after each move (in logfile).
+# -DCPUS=4: Sets max number of CPUs Crafty can use (adjust as needed).
+# -DWINDOWS: Identifies target OS as Windows for Crafty's internal code.
+opt = -DSYZYGY -DTEST -DCPUS=4 -DWINDOWS
+
+# Linker flags for MSVC (passed to cl.exe's linker stage)
+# /MACHINE:X64: Specifies target architecture as 64-bit.
+# /DEBUG: Generates debugging information for the executable.
+LDFLAGS = /MACHINE:X64 /DEBUG
+
+# Objects to build for MSVC
+# Assumes crafty.c is a single file that #includes all other necessary source.
+objects = crafty.obj
+
+# Clean target for MSVC builds
+# Removes object files (.obj), executable (.exe), program database files (.pdb),
+# and incremental link files (.ilk) specific to MSVC.
+# Also removes Crafty's log and game files.
+clean:
+	-del /Q *.obj *.exe *.pdb *.ilk
+	-rm -f log.* game.*
+	-rm -rf prof
+	-rm -rf *.gcda

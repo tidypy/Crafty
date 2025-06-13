@@ -1,0 +1,263 @@
+
+Crafty v25.2
+
+machine has 4 processors
+
+White(1): xboard
+
+tellicsnoalias set 1 Crafty v25.2 (1 cpus)
+tellicsnoalias kibitz Hello from Crafty v25.2! (1 cpus)
+White(1): protover 2
+feature ping=1 setboard=1 san=1 time=1 draw=1
+feature sigint=0 sigterm=0 reuse=0 analyze=1
+feature myname="Crafty-25.2" name=1
+feature playother=1 colors=0 memory=1
+feature smp=1
+feature variants="normal,nocastle"
+feature done=1
+White(1): accepted ping
+White(1): accepted setboard
+White(1): accepted san
+White(1): accepted time
+White(1): accepted draw
+White(1): accepted sigint
+White(1): accepted sigterm
+White(1): accepted reuse
+White(1): accepted analyze
+White(1): accepted name
+White(1): accepted playother
+White(1): accepted colors
+White(1): accepted memory
+White(1): accepted smp
+White(1): accepted variants
+White(1): accepted done
+White(1): memory 196
+Warning--  xboard 'memory' option disabled
+hash table memory = 128M bytes (8M entries).
+Warning--  xboard 'memory' option disabled
+pawn hash table memory = 48M bytes (2M entries).
+White(1): cores 2
+Warning--  xboard 'cores' option disabled
+max threads set to 2.
+White(1): new
+NOTICE:  new command not implemented, please exit and
+restart crafty to re-initialize everything for a new game
+White(1): random
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): post
+White(1): hard
+pondering enabled.
+White(1): easy
+pondering disabled.
+White(1): ping 3
+pong 3
+White(1): name Crafty 25.2
+Crafty 25.2 vs Crafty
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): memory 196
+WARNING - memory command ignored.
+White(1): cores 2
+Warning--  xboard 'cores' option disabled
+max threads set to 2.
+White(1): new
+NOTICE:  new command not implemented, please exit and
+restart crafty to re-initialize everything for a new game
+White(1): random
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): post
+White(1): hard
+pondering enabled.
+White(1): easy
+pondering disabled.
+White(1): ping 6
+pong 6
+White(1): name Crafty 25.2
+Crafty 25.2 vs Crafty
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): memory 196
+WARNING - memory command ignored.
+White(1): cores 2
+Warning--  xboard 'cores' option disabled
+max threads set to 2.
+White(1): new
+NOTICE:  new command not implemented, please exit and
+restart crafty to re-initialize everything for a new game
+White(1): random
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): post
+White(1): hard
+pondering enabled.
+White(1): easy
+pondering disabled.
+White(1): ping 12
+pong 12
+White(1): name Dev
+Crafty 25.2 vs Dev
+White(1): time 3000
+time remaining:  30.00 (Crafty).
+White(1): otim 3000
+time remaining:  30.00 (opponent).
+White(1): d4
+              time used:   5.16
+        time limit 1.15 (5.75)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18     1.23/1.38       --   1. ... d5! (<+0.18)                   
+         18     1.43/1.38     0.24   1. ... d5 2. Nc3 Nc6 3. Nf3 Nf6 4. e3 e6
+                                     5. Bd3 Bd6 6. O-O O-O 7. a3 e5 8. dxe5
+                                     Nxe5 9. Nxe5 Bxe5 10. Bd2
+         18->   1.45/1.38     0.24   1. ... d5 2. Nc3 Nc6 3. Nf3 Nf6 4. e3 e6
+                                     5. Bd3 Bd6 6. O-O O-O 7. a3 e5 8. dxe5
+                                     Nxe5 9. Nxe5 Bxe5 10. Bd2 (s=2)
+        time=1.45(98%)  nodes=10701837(10.7M)  fh1=91%  pred=0  nps=7.4M
+        chk=93.6K  qchk=161.7K  fp=3.0M  mcp=2.6M  50move=1
+        LMReductions:  1/403.9K  2/309.4K  3/207.1K  4/62.7K  5/2.8K
+        null-move (R):  3/500.6K  4/30.6K  5/560
+        splits=1.4K(976)  aborts=166  joins=415  data=9%(9%)
+terminating SMP processes.
+Black(1): d5
+              time used:   1.45
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>|<P>|   |<P>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |<P>| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |-P-|   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-P-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.00  |   -0.58   -0.58    0.39  |    0.58    0.58   -0.39  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.58   -0.58   -0.58  |    0.58    0.58    0.58  |
+bishops........   0.00  |    0.02    0.02    0.20  |   -0.02   -0.02   -0.20  |
+rooks..........   0.00  |   -0.38   -0.38   -0.38  |    0.38    0.38    0.38  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.05
+White(2): time 2856
+time remaining:  28.56 (Crafty).
+White(2): otim 2682
+time remaining:  26.82 (opponent).
+White(2): Nf3
+              time used:   3.48
+        time limit 1.09 (5.45)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.68/0.65     0.17   2. ... Nc6 3. Nc3 Nf6 4. e3 e6 5. Bd3 Nb4
+                                     6. Bb5+ c6 7. Be2 Bd6 8. O-O O-O 9. a3 Na6
+                                     10. Bd2 Qb6 11. b4
+        time=0.68(98%)  nodes=5190508(5.2M)  fh1=92%  pred=0  nps=7.6M
+        chk=41.0K  qchk=61.5K  fp=1.7M  mcp=1.1M  50move=2
+        LMReductions:  1/166.4K  2/123.5K  3/90.4K  4/33.2K  5/1.8K
+        null-move (R):  3/229.5K  4/14.8K  5/284
+        splits=599(423)  aborts=61  joins=176  data=9%(9%)
+terminating SMP processes.
+Black(2): Nc6
+              time used:   0.68
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>| . |<B>|<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>|<P>|   |<P>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<N>| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |<P>| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |-P-|   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-P-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-| . |-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.00  |   -0.58   -0.58    0.39  |    0.58    0.58   -0.39  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.10   -0.10   -0.10  |    0.10    0.10    0.10  |
+bishops........   0.00  |    0.02    0.02    0.20  |   -0.02   -0.02   -0.20  |
+rooks..........   0.00  |   -0.28   -0.28   -0.28  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.05
+White(3): time 2789
+time remaining:  27.89 (Crafty).
+White(3): otim 2536
+time remaining:  25.36 (opponent).
+White(3): Nc3
+              time used:   1.75
+        time limit 1.07 (5.35)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   1.28/1.15     0.11   3. ... Bf5 4. e3 e6 5. Be2 Nf6 6. O-O Bd6
+                                     7. Nh4 Be4 8. f3 Bg6 9. Nb5 O-O 10. Nxg6
+                                     hxg6 11. Bd2 a6 12. Nxd6 Qxd6 (s=2)
+        time=1.28(99%)  nodes=10363770(10.4M)  fh1=92%  pred=0  nps=8.1M
+        chk=85.3K  qchk=117.0K  fp=3.9M  mcp=2.0M  50move=4
+        LMReductions:  1/298.0K  2/215.2K  3/164.3K  4/66.7K  5/4.1K  6/1
+        null-move (R):  3/436.4K  4/29.1K  5/445
+        splits=926(808)  aborts=110  joins=118  data=7%(9%)
+terminating SMP processes.
+Black(3): Bf5
+              time used:   1.28
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>| . |   |<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>|<P>|   |<P>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<N>| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |<P>| . |<B>| . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |-P-|   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-P-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   |-B-|-Q-|-K-|-B-| . |-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.00  |   -0.58   -0.58    0.39  |    0.58    0.58   -0.39  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.48  |    0.38    0.38    0.38  |    0.10    0.10    0.10  |
+bishops........  -0.33  |    0.02    0.02    0.20  |   -0.35   -0.35   -0.53  |
+rooks..........   0.06  |   -0.18   -0.18   -0.18  |    0.24    0.24    0.24  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.26
+White(4): ?
+White(4): force
+White(4): quit
