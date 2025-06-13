@@ -1,0 +1,2475 @@
+
+Crafty v25.2
+
+machine has 4 processors
+
+White(1): xboard
+
+tellicsnoalias set 1 Crafty v25.2 (1 cpus)
+tellicsnoalias kibitz Hello from Crafty v25.2! (1 cpus)
+White(1): protover 2
+feature ping=1 setboard=1 san=1 time=1 draw=1
+feature sigint=0 sigterm=0 reuse=0 analyze=1
+feature myname="Crafty-25.2" name=1
+feature playother=1 colors=0 memory=1
+feature smp=1
+feature variants="normal,nocastle"
+feature done=1
+White(1): accepted ping
+White(1): accepted setboard
+White(1): accepted san
+White(1): accepted time
+White(1): accepted draw
+White(1): accepted sigint
+White(1): accepted sigterm
+White(1): accepted reuse
+White(1): accepted analyze
+White(1): accepted name
+White(1): accepted playother
+White(1): accepted colors
+White(1): accepted memory
+White(1): accepted smp
+White(1): accepted variants
+White(1): accepted done
+White(1): memory 196
+Warning--  xboard 'memory' option disabled
+hash table memory = 128M bytes (8M entries).
+Warning--  xboard 'memory' option disabled
+pawn hash table memory = 48M bytes (2M entries).
+White(1): cores 2
+Warning--  xboard 'cores' option disabled
+max threads set to 2.
+White(1): new
+NOTICE:  new command not implemented, please exit and
+restart crafty to re-initialize everything for a new game
+White(1): random
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): post
+White(1): hard
+pondering enabled.
+White(1): easy
+pondering disabled.
+White(1): ping 5
+pong 5
+White(1): name AnMon 5.75
+Crafty 25.2 vs AnMon
+White(1): computer
+playing a computer!
+White(1): easy
+pondering disabled.
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): memory 196
+WARNING - memory command ignored.
+White(1): cores 2
+Warning--  xboard 'cores' option disabled
+max threads set to 2.
+White(1): new
+NOTICE:  new command not implemented, please exit and
+restart crafty to re-initialize everything for a new game
+White(1): random
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): post
+White(1): hard
+pondering enabled.
+White(1): easy
+pondering disabled.
+White(1): ping 6
+pong 6
+White(1): name AnMon 5.75
+Crafty 25.2 vs AnMon
+White(1): computer
+playing a computer!
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): memory 196
+WARNING - memory command ignored.
+White(1): cores 2
+Warning--  xboard 'cores' option disabled
+max threads set to 2.
+White(1): new
+NOTICE:  new command not implemented, please exit and
+restart crafty to re-initialize everything for a new game
+White(1): random
+White(1): level 0 0:30 0
+ game/30 seconds primary time control
+White(1): post
+White(1): hard
+pondering enabled.
+White(1): easy
+pondering disabled.
+White(1): ping 12
+pong 12
+White(1): name AnMon 5.75
+Crafty 25.2 vs AnMon
+White(1): computer
+playing a computer!
+White(1): time 3000
+time remaining:  30.00 (Crafty).
+White(1): otim 3000
+time remaining:  30.00 (opponent).
+White(1): d4
+              time used:   1.35
+        time limit 1.15 (5.75)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.70/0.69     0.23   1. ... e6 2. Nf3 Nf6 3. Nc3 d5 4. Bg5 Nc6
+                                     5. e3 Bd6 6. Bd3 h6 7. Bxf6 Qxf6 8. O-O
+                                     O-O 9. Nb5 Bd7 10. Nxd6 cxd6
+        time=0.70(98%)  nodes=4949140(4.9M)  fh1=92%  pred=0  nps=7.1M
+        chk=36.9K  qchk=61.3K  fp=1.3M  mcp=1.3M  50move=1
+        LMReductions:  1/201.4K  2/160.5K  3/106.8K  4/28.8K  5/787
+        null-move (R):  3/251.2K  4/15.2K  5/214
+        splits=758(443)  aborts=76  joins=315  data=7%(7%)
+terminating SMP processes.
+Black(1): e6
+              time used:   0.70
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>|<P>|<P>| . |<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |<P>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |-P-|   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-P-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.06  |   -0.58   -0.58    0.39  |    0.52    0.52   -0.49  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.58   -0.58   -0.58  |    0.58    0.58    0.58  |
+bishops........   0.00  |    0.02    0.02    0.20  |   -0.02   -0.02   -0.20  |
+rooks..........   0.00  |   -0.38   -0.38   -0.38  |    0.38    0.38    0.38  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.01
+White(2): time 2929
+time remaining:  29.29 (Crafty).
+White(2): otim 2999
+time remaining:  29.99 (opponent).
+White(2): e4
+              time used:   0.41
+        time limit 1.12 (5.60)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         16->   1.31/1.17     0.08   2. ... c5 3. c3 cxd4 4. cxd4 Bb4+ 5. Bd2
+                                     Qb6 6. Nf3 Nc6 7. d5 exd5 8. exd5 Nce7
+                                     9. Bc4 Nf6 10. O-O O-O 11. Bxb4 Qxb4
+        time=1.31(97%)  nodes=10018798(10.0M)  fh1=90%  pred=0  nps=7.6M
+        chk=114.5K  qchk=185.1K  fp=3.0M  mcp=2.2M  50move=1
+        LMReductions:  1/283.4K  2/187.9K  3/130.0K  4/48.7K  5/2.6K
+        null-move (R):  3/358.8K  4/18.9K  5/148
+        splits=811(436)  aborts=86  joins=376  data=7%(7%)
+terminating SMP processes.
+Black(2): c5
+              time used:   1.31
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>| . |<P>| . |<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |<P>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |-P-|-P-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.20  |   -0.30   -0.30    0.56  |    0.50    0.50   -0.43  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.58   -0.58   -0.58  |    0.58    0.58    0.58  |
+bishops........   0.17  |    0.16    0.16    0.34  |    0.01    0.01   -0.17  |
+rooks..........   0.00  |   -0.38   -0.38   -0.38  |    0.38    0.38    0.38  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.42
+White(3): time 2795
+time remaining:  27.95 (Crafty).
+White(3): otim 2934
+time remaining:  29.34 (opponent).
+White(3): d5
+              time used:   1.09
+        time limit 1.07 (5.35)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.95/0.77     0.49   3. ... exd5 4. exd5 Nf6 5. Nc3 d6 6. Nf3
+                                     Be7 7. Bc4 Na6 8. O-O O-O 9. Re1 Re8
+                                     10. Bf4 Bf5 11. Bb5 Bd7
+        time=0.95(99%)  nodes=6871499(6.9M)  fh1=89%  pred=0  nps=7.2M
+        chk=107.2K  qchk=143.4K  fp=1.9M  mcp=1.4M  50move=1
+        LMReductions:  1/207.6K  2/144.5K  3/101.9K  4/30.5K  5/1.5K  6/14
+        null-move (R):  3/273.9K  4/16.0K  5/254
+        splits=650(413)  aborts=41  joins=237  data=7%(7%)
+terminating SMP processes.
+Black(3): exd5
+              time used:   0.95
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>| . |<P>| . |<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|<P>| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |-P-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.08  |   -0.52   -0.52    0.40  |    0.44    0.44   -0.44  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.58   -0.58   -0.58  |    0.58    0.58    0.58  |
+bishops........   0.17  |    0.16    0.16    0.34  |    0.01    0.01   -0.17  |
+rooks..........   0.00  |   -0.38   -0.38   -0.38  |    0.38    0.38    0.38  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.86
+White(4): time 2697
+time remaining:  26.97 (Crafty).
+White(4): otim 2861
+time remaining:  28.61 (opponent).
+White(4): exd5
+              time used:   1.18
+        time limit 1.03 (5.15)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.61/0.61     0.47   4. ... Nf6 5. Qe2+ Qe7 6. Nc3 b6 7. Bg5
+                                     Ba6 8. Bxf6 gxf6 9. Qxe7+ Bxe7 10. Nf3 Rg8
+                                     11. Bxa6 Nxa6 12. g3 Nb4 13. O-O-O f5
+        time=0.61(100%)  nodes=4652508(4.7M)  fh1=90%  pred=0  nps=7.6M
+        chk=66.0K  qchk=99.7K  fp=1.4M  mcp=945.0K  50move=1
+        LMReductions:  1/142.5K  2/105.2K  3/79.9K  4/27.5K  5/1.6K
+        null-move (R):  3/197.4K  4/14.6K  5/264
+        splits=607(457)  aborts=30  joins=150  data=9%(9%)
+terminating SMP processes.
+Black(4): Nf6
+              time used:   0.61
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>| . |<P>| . |<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   |<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|-P-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.01  |   -0.57   -0.57    0.40  |    0.58    0.58   -0.37  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.48  |   -0.58   -0.58   -0.58  |    0.10    0.10    0.10  |
+bishops........   0.17  |    0.16    0.16    0.34  |    0.01    0.01   -0.17  |
+rooks..........  -0.10  |   -0.38   -0.38   -0.38  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.35
+White(5): time 2634
+time remaining:  26.34 (Crafty).
+White(5): otim 2790
+time remaining:  27.90 (opponent).
+White(5): Qe2
+              time used:   1.15
+        time limit 1.01 (5.05)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.61/0.60     0.50   5. ... Qe7 6. Nc3 b6 7. Bf4 Ba6 8. d6 Qe6
+                                     9. Qxe6+ fxe6 10. Bxa6 Nxa6 11. Nf3 Nb4
+                                     12. O-O-O Nbd5 13. Nxd5 Nxd5 14. Be5 O-O-O
+                                     15. Rhe1
+        time=0.61(99%)  nodes=4982972(5.0M)  fh1=90%  pred=0  nps=8.2M
+        chk=65.1K  qchk=71.7K  fp=1.7M  mcp=853.8K  50move=3
+        LMReductions:  1/151.1K  2/104.9K  3/81.1K  4/27.5K  5/2.1K  6/4
+        null-move (R):  3/207.8K  4/19.3K  5/586  6/2
+        splits=872(631)  aborts=54  joins=241  data=7%(9%)
+terminating SMP processes.
+Black(5): Qe7
+              time used:   0.61
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>| . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>| . |<P>|<Q>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   |<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|-P-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-Q-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|   |-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.01  |   -0.57   -0.57    0.40  |    0.58    0.58   -0.37  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.48  |   -0.58   -0.58   -0.58  |    0.10    0.10    0.10  |
+bishops........   0.14  |    0.02    0.02    0.20  |    0.12    0.12   -0.06  |
+rooks..........  -0.10  |   -0.38   -0.38   -0.38  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.06    0.06    0.06  |   -0.06   -0.06   -0.06  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.38
+White(6): time 2570
+time remaining:  25.70 (Crafty).
+White(6): otim 2662
+time remaining:  26.62 (opponent).
+White(6): Nc3
+              time used:   1.72
+        time limit 0.98 (4.90)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   1.03/1.76     0.57   6. ... Qxe2+ 7. Bxe2 Be7 8. Nf3 d6 9. Bf4
+                                     O-O 10. O-O-O Nh5 11. Be3 Bf5 12. Rhe1 Nd7
+                                     13. Bd3 Bxd3 14. Rxd3 Rfe8 15. Ne4 (s=2)
+         18     1.14/1.76       ++   6. ... Qxe2+? (>+0.73)                   
+         18     1.69/1.76     0.83   6. ... Qxe2+ 7. Bxe2 Be7 8. Bf4 O-O
+                                     9. O-O-O Re8 10. Nf3 Nh5 11. Be3 d6 12. h3
+                                     Nf6 13. g4 h6 14. Rhe1 Na6 15. Bb5 Bd7
+                                     16. Bxd7 Nxd7 (s=2)
+         18     1.84/1.96       --   6. ... b6! (<+0.41)                   
+         18     1.92/1.96     0.79   6. ... b6 7. Be3 Ba6 8. Qf3 d6 9. Bxa6
+                                     Nxa6 10. O-O-O O-O-O 11. Nh3 Re8 12. Rhe1
+                                     Qb7 13. Bd2 Be7 14. Ng5 Bd8 15. Nb5 (s=2)
+         18->   2.13/1.96     0.79   6. ... b6 7. Be3 Ba6 8. Qf3 d6 9. Bxa6
+                                     Nxa6 10. O-O-O O-O-O 11. Nh3 Re8 12. Rhe1
+                                     Qb7 13. Bd2 Be7 14. Ng5 Bd8 15. Nb5 (s=3)
+        time=2.13(98%)  nodes=16644037(16.6M)  fh1=90%  pred=0  nps=7.8M
+        chk=197.5K  qchk=236.8K  fp=5.2M  mcp=3.2M  50move=5
+        LMReductions:  1/511.7K  2/372.7K  3/251.0K  4/84.3K  5/5.1K  6/19
+        null-move (R):  3/692.5K  4/45.7K  5/697
+        splits=2.1K(1.3K)  aborts=226  joins=748  data=7%(9%)
+terminating SMP processes.
+Black(6): b6
+              time used:   2.13
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>| . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>|<Q>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   | . |   |<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|-P-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-Q-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   |-B-|   |-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.22  |   -0.57   -0.57    0.40  |    0.35    0.35   -0.57  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.10   -0.10   -0.10  |    0.10    0.10    0.10  |
+bishops........   0.12  |    0.02    0.02    0.20  |    0.10    0.10   -0.08  |
+rooks..........   0.00  |   -0.28   -0.28   -0.28  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.06    0.06    0.06  |   -0.06   -0.06   -0.06  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.05
+White(7): time 2357
+White(7): otim 2599
+White(7): Bf4
+              time used:   1.06
+        time limit 0.90 (4.50)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.54/0.54     0.38   7. ... Ba6 8. d6 Qxe2+ 9. Bxe2 Bxe2
+                                     10. Ngxe2 Nc6 11. Ng3 O-O-O 12. O-O-O Re8
+                                     13. Rhe1 Rxe1 14. Rxe1 g6 15. Kd2 Bg7
+                                     16. f3 Kb7
+        time=0.54(93%)  nodes=4462789(4.5M)  fh1=90%  pred=0  nps=8.3M
+        chk=52.3K  qchk=60.9K  fp=1.6M  mcp=739.1K  50move=2
+        LMReductions:  1/131.3K  2/90.0K  3/72.6K  4/26.1K  5/2.0K  6/15
+        null-move (R):  3/189.1K  4/19.1K  5/612
+        splits=992(654)  aborts=93  joins=338  data=7%(9%)
+terminating SMP processes.
+Black(7): Ba6
+              time used:   0.54
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|   | . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>|<Q>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |<B>|<P>|   | . |   |<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|-P-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-Q-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   | . |   |-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.22  |   -0.57   -0.57    0.40  |    0.35    0.35   -0.57  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.10   -0.10   -0.10  |    0.10    0.10    0.10  |
+bishops........   0.19  |    0.36    0.36    0.54  |   -0.17   -0.17   -0.35  |
+rooks..........   0.08  |   -0.20   -0.20   -0.20  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.06    0.06    0.06  |   -0.06   -0.06   -0.06  |
+kings..........  -0.16  |   -0.61   -0.61   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.06
+White(8): time 2299
+White(8): otim 2532
+White(8): d6
+              time used:   1.11
+        time limit 0.88 (4.40)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         20     2.39/1.12     0.41   8. ... Qe6 9. Qxe6+ fxe6 10. Bxa6 Nxa6
+                                     11. Nf3 Nb4 12. O-O-O O-O-O 13. Rhe1 g6
+                                     14. Ne5 Re8 15. a3 Nbd5 16. Nxd5 Nxd5
+                                     17. Nf7 Nxf4 18. Nxh8 Nxg2 (s=2)
+         20->   2.41/1.12     0.41   8. ... Qe6 9. Qxe6+ fxe6 10. Bxa6 Nxa6
+                                     11. Nf3 Nb4 12. O-O-O O-O-O 13. Rhe1 g6
+                                     14. Ne5 Re8 15. a3 Nbd5 16. Nxd5 Nxd5
+                                     17. Nf7 Nxf4 18. Nxh8 Nxg2 (s=2)
+        time=2.41(100%)  nodes=21263380(21.3M)  fh1=91%  pred=0  nps=8.8M
+        chk=257.0K  qchk=312.5K  fp=7.9M  mcp=3.6M  50move=1
+        LMReductions:  1/607.6K  2/390.5K  3/317.3K  4/119.3K  5/7.4K  6/28
+        null-move (R):  3/878.6K  4/68.6K  5/2.4K  6/22
+        splits=2.9K(2.1K)  aborts=324  joins=748  data=9%(9%)
+terminating SMP processes.
+Black(8): Qe6
+              time used:   2.41
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|   | . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |<B>|<P>|   |-P-|<Q>|<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-Q-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   | . |   |-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.27  |   -0.62   -0.62    0.40  |    0.35    0.35   -0.57  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.10   -0.10   -0.10  |    0.10    0.10    0.10  |
+bishops........   0.10  |    0.33    0.33    0.51  |   -0.23   -0.23   -0.41  |
+rooks..........   0.08  |   -0.20   -0.20   -0.20  |    0.28    0.28    0.28  |
+queens.........  -0.03  |    0.06    0.06    0.06  |   -0.09   -0.09   -0.09  |
+kings..........  -0.16  |   -0.61   -0.61   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.23
+White(9): time 2056
+White(9): otim 2481
+White(9): Qxe6
+              time used:   0.95
+        time limit 0.79 (3.95)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         20->   0.47/0.47     0.38   9. ... fxe6 10. Bxa6 Nxa6 11. Nf3 g6
+                                     12. Nb5 Bg7 13. O-O-O Ne4 14. Bg3 Rb8
+                                     15. Rhe1 Bh6+ 16. Kb1 Nxg3 17. hxg3 Rb7
+                                     18. Ne5 Bg7 19. f4 Bxe5 20. Rxe5
+        time=0.47(94%)  nodes=3943650(3.9M)  fh1=92%  pred=0  nps=8.4M
+        chk=54.7K  qchk=69.4K  fp=1.4M  mcp=689.5K  50move=1
+        LMReductions:  1/116.0K  2/74.7K  3/59.7K  4/21.8K  5/1.6K  6/8
+        null-move (R):  3/163.0K  4/12.7K  5/408  6/6
+        splits=593(442)  aborts=45  joins=151  data=9%(9%)
+terminating SMP processes.
+Black(9): fxe6
+              time used:   0.47
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|   | . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   |<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |<B>|<P>|   |-P-|<P>|<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   | . |   |-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.39  |   -0.32   -0.62    0.40  |   -0.07    0.18   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.10   -0.10   -0.10  |    0.10    0.10    0.10  |
+bishops........   0.23  |    0.52    0.47    0.65  |   -0.29   -0.24   -0.42  |
+rooks..........   0.08  |   -0.20   -0.20   -0.20  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.03  |   -0.43   -0.45   -0.40  |    0.40    0.41    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.05
+White(10): time 2008
+White(10): otim 2421
+White(10): Nf3
+              time used:   1.06
+        time limit 0.77 (3.85)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         20     1.43/0.92     0.36   10. ... Bxf1 11. Rxf1 Nc6 12. O-O-O Rg8
+                                     13. Ng5 h6 14. Nge4 O-O-O 15. h4 Nxe4
+                                     16. Nxe4 Kb7 17. Rfe1 Re8 18. Be3 Nb4
+                                     19. Nc3 g6 20. f3
+         20->   1.50/0.92     0.36   10. ... Bxf1 11. Rxf1 Nc6 12. O-O-O Rg8
+                                     13. Ng5 h6 14. Nge4 O-O-O 15. h4 Nxe4
+                                     16. Nxe4 Kb7 17. Rfe1 Re8 18. Be3 Nb4
+                                     19. Nc3 g6 20. f3 (s=2)
+        time=1.50(100%)  nodes=13571134(13.6M)  fh1=92%  pred=0  nps=9.0M
+        chk=131.3K  qchk=165.4K  fp=5.3M  mcp=2.4M  50move=2
+        LMReductions:  1/386.0K  2/251.6K  3/215.1K  4/94.0K  5/7.4K  6/69
+        null-move (R):  3/570.2K  4/46.6K  5/1.5K  6/14
+        splits=1.9K(1.5K)  aborts=142  joins=385  data=9%(9%)
+terminating SMP processes.
+Black(10): Bxf1
+              time used:   1.50
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|   | . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   |<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>|<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   | . |   |-K-|<B>| . |-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -3.90  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.38  |   -0.27   -0.62    0.40  |   -0.11    0.18   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.48  |    0.38    0.38    0.38  |    0.10    0.10    0.10  |
+bishops........  -0.04  |    0.25    0.22    0.32  |   -0.29   -0.23   -0.41  |
+rooks..........   0.18  |   -0.10   -0.10   -0.10  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.03  |   -0.43   -0.45   -0.40  |    0.40    0.41    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -3.68
+White(11): time 1856
+White(11): otim 2360
+White(11): Rxf1
+              time used:   1.07
+        time limit 0.71 (3.55)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.42/0.42     0.28   11. ... Nc6 12. O-O-O Rg8 13. h3 g6
+                                     14. Ne5 Nxe5 15. Bxe5 Bg7 16. Nb5 Kf7
+                                     17. Nc7 Rab8 18. Rd3 Rgf8 19. f4 c4
+                                     20. Rg3 Kg8
+        time=0.42(97%)  nodes=3799705(3.8M)  fh1=91%  pred=0  nps=9.0M
+        chk=39.7K  qchk=47.1K  fp=1.4M  mcp=728.9K  50move=1
+        LMReductions:  1/119.3K  2/78.2K  3/63.4K  4/23.9K  5/1.5K  6/3
+        null-move (R):  3/171.6K  4/13.0K  5/319  6/2
+        splits=482(388)  aborts=54  joins=94  data=7%(9%)
+terminating SMP processes.
+Black(11): Nc6
+              time used:   0.42
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>| . |   | . |<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   |<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>|<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|   | . |   |-K-|-R-| . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.37  |   -0.22   -0.62    0.40  |   -0.15    0.18   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |    0.38    0.38    0.38  |   -0.38   -0.38   -0.38  |
+bishops........   0.38  |    0.25    0.22    0.32  |    0.13    0.17    0.07  |
+rooks..........   0.06  |   -0.04   -0.04   -0.04  |    0.10    0.10    0.10  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.40   -0.41   -0.40  |    0.40    0.41    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.12
+White(12): time 1811
+White(12): otim 2292
+White(12): O-O-O
+              time used:   1.14
+        time limit 0.69 (3.45)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.41/0.41     0.24   12. ... Rg8 13. h3 g6 14. Rfe1 Bg7 15. g4
+                                     O-O-O 16. Ne5 Nxe5 17. Bxe5 Rgf8 18. f4
+                                     Kb7 19. Nb5 Ne8 20. Re3 Bxe5 21. fxe5
+        time=0.41(100%)  nodes=3638576(3.6M)  fh1=92%  pred=0  nps=8.9M
+        chk=31.9K  qchk=39.7K  fp=1.4M  mcp=677.0K  50move=3
+        LMReductions:  1/108.3K  2/74.0K  3/67.2K  4/30.8K  5/2.3K  6/9
+        null-move (R):  3/164.1K  4/13.7K  5/308
+        splits=499(406)  aborts=35  joins=93  data=6%(9%)
+terminating SMP processes.
+Black(12): Rg8
+              time used:   0.41
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>| . |   | . |<K>|<B>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   |<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>|<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-| . |-R-| . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.37  |   -0.22   -0.62    0.40  |   -0.15    0.18   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |    0.38    0.38    0.38  |   -0.38   -0.38   -0.38  |
+bishops........   0.38  |    0.25    0.22    0.32  |    0.13    0.17    0.07  |
+rooks..........   0.28  |    0.19    0.19    0.19  |    0.09    0.09    0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.15  |   -0.25   -0.16   -0.40  |    0.40    0.41    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.62
+White(13): time 1768
+White(13): otim 2230
+White(13): Rfe1
+              time used:   1.06
+        time limit 0.68 (3.40)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.40/0.40     0.21   13. ... g6 14. h3 Bg7 15. g4 O-O-O 16. Ne5
+                                     Nxe5 17. Bxe5 Rgf8 18. f4 Kb7 19. Rd2 Ne8
+                                     20. b3 Bxe5 21. fxe5 Ng7
+        time=0.40(100%)  nodes=3837892(3.8M)  fh1=91%  pred=0  nps=9.6M
+        chk=28.5K  qchk=31.3K  fp=1.5M  mcp=724.8K  50move=5
+        LMReductions:  1/105.8K  2/64.0K  3/55.1K  4/24.6K  5/1.6K
+        null-move (R):  3/154.4K  4/10.0K  5/192
+        splits=367(260)  aborts=43  joins=107  data=7%(9%)
+terminating SMP processes.
+Black(13): g6
+              time used:   0.40
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>| . |   | . |<K>|<B>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>|<N>|<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.46  |   -0.22   -0.62    0.40  |   -0.24    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |    0.38    0.38    0.38  |   -0.38   -0.38   -0.38  |
+bishops........   0.31  |    0.25    0.22    0.32  |    0.06    0.11   -0.01  |
+rooks..........   0.50  |    0.43    0.43    0.43  |    0.07    0.07    0.07  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.15  |   -0.25   -0.16   -0.40  |    0.40    0.41    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.69
+White(14): time 1724
+White(14): otim 2121
+White(14): Nb5
+              time used:   1.55
+        time limit 0.66 (3.30)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         14->   0.39/0.39     0.01   14. ... O-O-O 15. Nc7 Bg7 16. Re2 Kb7
+                                     17. Bg5 Rgf8 18. h3 Rb8 19. c3 h6 20. Bxf6
+                                     Bxf6 21. Re4
+        time=0.39(98%)  nodes=3740235(3.7M)  fh1=92%  pred=0  nps=9.6M
+        chk=27.4K  qchk=32.0K  fp=1.4M  mcp=791.7K  50move=2
+        LMReductions:  1/97.4K  2/57.4K  3/40.3K  4/16.6K  5/567
+        null-move (R):  3/128.8K  4/5.1K  5/13
+        splits=276(117)  aborts=51  joins=159  data=6%(9%)
+terminating SMP processes.
+Black(14): O-O-O
+              time used:   0.39
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |<K>|<R>|   |<B>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>|<N>|<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |-N-|<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-N-| . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.46  |   -0.22   -0.62    0.40  |   -0.24    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.07  |    0.31    0.31    0.31  |   -0.38   -0.38   -0.38  |
+bishops........   0.31  |    0.25    0.22    0.32  |    0.06    0.11   -0.01  |
+rooks..........   0.47  |    0.43    0.43    0.43  |    0.04    0.04    0.04  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.18  |   -0.25   -0.16   -0.40  |    0.43    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.49
+White(15): time 1683
+White(15): otim 2022
+White(15): h3
+              time used:   1.47
+        time limit 0.64 (3.20)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         15->   0.38/0.38     0.06   15. ... Bg7 16. c4 Nh5 17. Bg5 Rdf8
+                                     18. Re4 Bf6 19. Be3 g5 20. Rg1 Ng7
+                                     21. Bxg5 Bxg5+ 22. Nxg5 Rxf2 23. Nxh7
+        time=0.38(93%)  nodes=3407298(3.4M)  fh1=93%  pred=0  nps=9.0M
+        chk=30.0K  qchk=37.3K  fp=1.3M  mcp=633.4K  50move=1
+        LMReductions:  1/89.0K  2/54.3K  3/44.9K  4/18.4K  5/699
+        null-move (R):  3/130.5K  4/7.0K  5/45
+        splits=325(151)  aborts=26  joins=174  data=6%(9%)
+terminating SMP processes.
+Black(15): Bg7
+              time used:   0.38
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |<K>|<R>|   | . |<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   |<B>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>|<N>|<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |-N-|<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-N-| . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.39  |   -0.15   -0.53    0.44  |   -0.24    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.07  |    0.31    0.31    0.31  |   -0.38   -0.38   -0.38  |
+bishops........   0.20  |    0.30    0.26    0.38  |   -0.10   -0.06   -0.18  |
+rooks..........   0.39  |    0.43    0.43    0.43  |   -0.04   -0.04   -0.04  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.18  |   -0.25   -0.16   -0.40  |    0.43    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.36
+White(16): time 1644
+White(16): otim 1991
+White(16): Ne5
+              time used:   0.75
+        time limit 0.63 (3.15)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.48/0.43    -0.13   16. ... Nxe5 17. Bxe5 Kb7 18. b3 Nh5
+                                     19. Bxg7 Rxg7 20. Rd2 Nf4 21. f3 Rf7
+                                     22. c4 Rf5 23. Re4 a6 24. g4 Rf7
+        time=0.48(97%)  nodes=4612451(4.6M)  fh1=93%  pred=0  nps=9.6M
+        chk=37.5K  qchk=41.9K  fp=1.6M  mcp=991.5K  50move=3
+        LMReductions:  1/155.2K  2/97.0K  3/84.1K  4/25.5K  5/1.1K
+        null-move (R):  3/215.9K  4/16.2K  5/260
+        splits=791(499)  aborts=68  joins=292  data=6%(9%)
+terminating SMP processes.
+Black(16): Nxe5
+              time used:   0.48
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |<K>|<R>|   | . |<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   |<B>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>|<N>|<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |-N-|<P>|   |<N>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   |-B-|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -3.90  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.38  |   -0.10   -0.53    0.44  |   -0.28    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.35  |    0.12    0.12    0.12  |   -0.47   -0.47   -0.47  |
+bishops........   0.17  |    0.28    0.23    0.35  |   -0.11   -0.06   -0.18  |
+rooks..........   0.35  |    0.39    0.39    0.39  |   -0.04   -0.04   -0.04  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.15  |   -0.27   -0.18   -0.40  |    0.42    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -3.95
+White(17): time 1595
+White(17): otim 1915
+White(17): Bxe5
+              time used:   1.22
+        time limit 0.61 (3.05)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.36/0.36    -0.12   17. ... Kb7 18. f3 Nd5 19. Bxg7 Rxg7
+                                     20. c4 Nb4 21. Nc3 Rf8 22. b3 Rgf7 23. Kb2
+                                     Nc6 24. Re4 Rf5 25. Nb5 Re5 26. Nc3 Rxe4
+                                     27. Nxe4
+        time=0.36(98%)  nodes=3347483(3.3M)  fh1=93%  pred=0  nps=9.3M
+        chk=28.4K  qchk=31.6K  fp=1.1M  mcp=731.6K  50move=1
+        LMReductions:  1/118.3K  2/78.0K  3/70.5K  4/21.0K  5/1.0K
+        null-move (R):  3/163.3K  4/15.0K  5/354
+        splits=674(509)  aborts=73  joins=172  data=17%(17%)
+terminating SMP processes.
+Black(17): Kb7
+              time used:   0.36
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   |<R>|   | . |<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>| . |<P>| . |   |<B>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>|<N>|<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |-N-|<P>|   |-B-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.38  |   -0.06   -0.53    0.44  |   -0.32    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.07  |    0.12    0.12    0.12  |   -0.19   -0.19   -0.19  |
+bishops........   0.27  |    0.38    0.33    0.45  |   -0.11   -0.06   -0.18  |
+rooks..........   0.32  |    0.39    0.39    0.39  |   -0.07   -0.07   -0.07  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.09  |   -0.27   -0.16   -0.40  |    0.36    0.61    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.28
+White(18): time 1556
+White(18): otim 1861
+White(18): Nc7
+              time used:   0.98
+        time limit 0.59 (2.95)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.96/0.82    -0.33   18. ... Rdf8 19. f3 Bh6+ 20. Kb1 Nh5
+                                     21. Re4 Bf4 22. Bxf4 Nxf4 23. Rd2 Rf5
+                                     24. c3 Rgf8 25. h4 Kc6 26. g4 R5f7 27. Kc2
+                                     a5 (s=3)
+        time=0.96(95%)  nodes=9202664(9.2M)  fh1=94%  pred=0  nps=9.6M
+        chk=69.4K  qchk=91.8K  fp=3.1M  mcp=2.1M  50move=3
+        LMReductions:  1/327.0K  2/212.8K  3/182.7K  4/61.4K  5/3.2K  6/2
+        null-move (R):  3/448.7K  4/35.1K  5/667
+        splits=1.5K(1.1K)  aborts=153  joins=453  data=9%(17%)
+terminating SMP processes.
+Black(18): Rdf8
+              time used:   0.96
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   |<B>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>|<N>|<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-B-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   |-P-|-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.38  |   -0.06   -0.53    0.44  |   -0.32    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.05  |    0.14    0.14    0.14  |   -0.19   -0.19   -0.19  |
+bishops........   0.27  |    0.38    0.33    0.45  |   -0.11   -0.06   -0.18  |
+rooks..........   0.28  |    0.39    0.39    0.39  |   -0.11   -0.11   -0.11  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.09  |   -0.27   -0.16   -0.40  |    0.36    0.61    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.26
+White(19): time 1458
+White(19): otim 1780
+White(19): f3
+              time used:   1.26
+        time limit 0.56 (2.80)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.33/0.33    -0.48   19. ... Bh6+ 20. Kb1 Nh5 21. b3 Nf4
+                                     22. Rg1 Rf5 23. Bb2 Rg5 24. Bc1 Ne2
+                                     25. Bxg5 Bxg5 26. Rh1 Nc3+ 27. Kb2 Nxd1+
+                                     28. Rxd1 Bf6+ 29. c3 Kc6 30. a4
+        time=0.33(100%)  nodes=3083857(3.1M)  fh1=93%  pred=0  nps=9.3M
+        chk=13.5K  qchk=18.5K  fp=1.1M  mcp=726.6K  50move=1
+        LMReductions:  1/104.3K  2/66.5K  3/56.8K  4/22.2K  5/1.2K
+        null-move (R):  3/142.1K  4/11.7K  5/271
+        splits=511(345)  aborts=63  joins=166  data=7%(17%)
+terminating SMP processes.
+Black(19): Bh6+
+              time used:   0.33
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>|<N>|<P>|<B>|
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-B-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-P-| . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   |-K-|-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.30  |    0.02   -0.42    0.50  |   -0.32    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.05  |    0.14    0.14    0.14  |   -0.19   -0.19   -0.19  |
+bishops........   0.27  |    0.43    0.37    0.51  |   -0.16   -0.11   -0.23  |
+rooks..........   0.26  |    0.39    0.39    0.39  |   -0.13   -0.13   -0.13  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.07  |   -0.29   -0.19   -0.40  |    0.36    0.61    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.31
+White(20): time 1424
+White(20): otim 1719
+White(20): Kb1
+              time used:   1.05
+        time limit 0.54 (2.70)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.32/0.32    -0.46   20. ... Nh5 21. b3 Nf4 22. Rg1 Rf5 23. Bb2
+                                     Rgf8 24. a4 Rg5 25. Bc1 Ne2 26. Bxg5 Bxg5
+                                     27. Rh1 Nc3+ 28. Kb2 Nxd1+ 29. Rxd1 Bf6+
+                                     30. c3 Kc6
+        time=0.32(99%)  nodes=3136275(3.1M)  fh1=93%  pred=0  nps=9.8M
+        chk=22.7K  qchk=35.0K  fp=1.1M  mcp=714.4K  50move=3
+        LMReductions:  1/109.8K  2/75.2K  3/58.8K  4/22.0K  5/1.4K  6/1
+        null-move (R):  3/148.7K  4/12.8K  5/368
+        splits=476(400)  aborts=50  joins=76  data=9%(17%)
+terminating SMP processes.
+Black(20): Nh5
+              time used:   0.32
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>|<B>|
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-B-|   | . |<N>|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-P-| . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-|-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.30  |    0.02   -0.42    0.50  |   -0.32    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.19  |    0.14    0.14    0.14  |    0.05    0.05    0.05  |
+bishops........   0.30  |    0.46    0.40    0.54  |   -0.16   -0.11   -0.23  |
+rooks..........   0.19  |    0.41    0.41    0.41  |   -0.22   -0.22   -0.22  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.07  |   -0.29   -0.19   -0.40  |    0.36    0.61    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.51
+White(21): time 1390
+White(21): otim 1637
+White(21): Re4
+              time used:   1.25
+        time limit 0.53 (2.65)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.38/0.33    -0.45   21. ... Bf4 22. Bxf4 Nxf4 23. Rd2 Rf5
+                                     24. Kc1 Rgf8 25. h4 Rh5 26. Re1 Rff5
+                                     27. Kd1 Re5 28. g3 Rxe1+ 29. Kxe1 Re5+
+                                     30. Kf2 Nd5 31. Nxd5 exd5
+        time=0.38(94%)  nodes=3513709(3.5M)  fh1=94%  pred=0  nps=9.2M
+        chk=24.0K  qchk=36.6K  fp=1.2M  mcp=808.4K  50move=5
+        LMReductions:  1/127.4K  2/80.8K  3/66.4K  4/24.7K  5/1.6K  6/2
+        null-move (R):  3/160.2K  4/13.0K  5/341
+        splits=661(382)  aborts=79  joins=279  data=9%(17%)
+terminating SMP processes.
+Black(21): Bf4
+              time used:   0.38
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-B-|   | . |<N>|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |-R-|<B>|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-P-| . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.30  |    0.02   -0.42    0.50  |   -0.32    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.19  |    0.14    0.14    0.14  |    0.05    0.05    0.05  |
+bishops........   0.15  |    0.43    0.37    0.51  |   -0.28   -0.23   -0.35  |
+rooks..........   0.31  |    0.50    0.50    0.50  |   -0.19   -0.19   -0.19  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.17  |   -0.29   -0.19   -0.40  |    0.46    0.81    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.58
+White(22): time 1352
+White(22): otim 1573
+White(22): Bxf4
+              time used:   1.08
+        time limit 0.52 (2.60)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.87/0.62    -0.57   22. ... Rxf4 23. Ree1 Kc6 24. Rd2 Rgf8
+                                     25. c3 Ng3 26. Red1 Nf5 27. b3 a5 28. a4
+                                     c4 29. Kb2 cxb3 30. Kxb3 Rf7 31. Nb5 Ne3
+                                     (s=2)
+        time=0.87(95%)  nodes=8348783(8.3M)  fh1=93%  pred=0  nps=9.6M
+        chk=76.7K  qchk=121.4K  fp=2.6M  mcp=1.9M  50move=1
+        LMReductions:  1/311.6K  2/203.5K  3/159.2K  4/52.8K  5/3.1K  6/9
+        null-move (R):  3/401.9K  4/35.5K  5/1.0K  6/2
+        splits=1.4K(1.1K)  aborts=212  joins=307  data=9%(17%)
+terminating SMP processes.
+Black(22): Rxf4
+              time used:   0.87
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |<N>|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |-R-|<R>|   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-P-| . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.29  |    0.11   -0.42    0.50  |   -0.40    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.19  |    0.14    0.14    0.14  |    0.05    0.05    0.05  |
+bishops........   0.00  |    0.28    0.18    0.36  |   -0.28   -0.18   -0.36  |
+rooks..........   0.27  |    0.54    0.54    0.54  |   -0.27   -0.27   -0.27  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.18  |   -0.23    0.00   -0.40  |    0.05    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........   0.05
+White(23): time 1262
+White(23): otim 1524
+White(23): c4
+              time used:   0.94
+        time limit 0.48 (2.40)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.30/0.28    -0.97   23. ... Rxe4 24. fxe4 Ng3 25. e5 Rf8
+                                     26. a4 Ne2 27. Re1 Rf2 28. g4 Nd4 29. Re3
+                                     Rf1+ 30. Ka2 Nc2 31. Re4 Nb4+ 32. Ka3 Rf3+
+                                     33. b3 Rxh3
+        time=0.30(94%)  nodes=2591627(2.6M)  fh1=91%  pred=0  nps=8.6M
+        chk=44.0K  qchk=58.0K  fp=617.1K  mcp=514.7K  50move=1
+        LMReductions:  1/108.2K  2/62.3K  3/38.7K  4/7.6K  5/167
+        null-move (R):  3/122.9K  4/9.5K  5/252
+        splits=622(298)  aborts=70  joins=324  data=7%(17%)
+terminating SMP processes.
+Black(23): Rxe4
+              time used:   0.30
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |<N>|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |<R>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |-P-| . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -5.75  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.29  |    0.18   -0.38    0.47  |   -0.47    0.09   -0.77  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.19  |    0.14    0.14    0.14  |    0.05    0.05    0.05  |
+bishops........   0.00  |    0.29    0.18    0.36  |   -0.29   -0.18   -0.36  |
+rooks..........  -0.06  |    0.23    0.23    0.23  |   -0.29   -0.29   -0.29  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.20  |   -0.26    0.00   -0.40  |    0.06    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -6.09
+White(24): time 1231
+White(24): otim 1504
+White(24): fxe4
+              time used:   0.64
+        time limit 0.47 (2.35)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.28/0.28    -1.07   24. ... Ng3 25. e5 Rf8 26. Re1 h6 27. Rd1
+                                     Ne4 28. Kc2 Rf2+ 29. Kd3 Ng3 30. Ke3 Rxb2
+                                     31. Kf3 Ne2 32. Nxe6 Rxa2 33. Nd8+ Kc8
+                                     34. Nf7 Nd4+ 35. Ke4 Re2+ 36. Kd5
+        time=0.28(93%)  nodes=2489837(2.5M)  fh1=91%  pred=0  nps=8.9M
+        chk=38.9K  qchk=56.6K  fp=607.9K  mcp=464.8K  50move=1
+        LMReductions:  1/113.7K  2/71.9K  3/45.6K  4/8.0K  5/326
+        null-move (R):  3/129.3K  4/12.2K  5/441
+        splits=651(462)  aborts=57  joins=189  data=7%(17%)
+terminating SMP processes.
+Black(24): Ng3
+              time used:   0.28
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |<R>| . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |-P-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   |<N>|-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.34  |    0.16   -0.41    0.37  |   -0.50    0.11   -0.72  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.03  |    0.14    0.14    0.14  |   -0.11   -0.11   -0.11  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.15  |    0.23    0.23    0.23  |   -0.08   -0.08   -0.08  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.30
+White(25): time 1200
+White(25): otim 1466
+White(25): e5
+              time used:   0.84
+        time limit 0.46 (2.30)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.27/0.27    -1.10   25. ... Rf8 26. Re1 h6 27. Rd1 Ne4 28. Kc1
+                                     Nf2 29. Rd2 Rf4 30. Kb1 Ne4 31. Re2 Ng3
+                                     32. Re3 Rf1+ 33. Kc2 Nf5 34. Re4 Rf2+
+                                     35. Kd3 Rxg2
+        time=0.27(93%)  nodes=2356576(2.4M)  fh1=91%  pred=0  nps=8.7M
+        chk=43.4K  qchk=57.2K  fp=582.2K  mcp=393.9K  50move=1
+        LMReductions:  1/106.7K  2/64.5K  3/41.8K  4/7.9K  5/307
+        null-move (R):  3/120.6K  4/12.6K  5/425
+        splits=664(516)  aborts=62  joins=148  data=7%(17%)
+terminating SMP processes.
+Black(25): Rf8
+              time used:   0.27
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-P-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   |<N>|-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.08  |    0.52   -0.17    0.76  |   -0.44    0.25   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.03  |    0.14    0.14    0.14  |   -0.11   -0.11   -0.11  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........  -0.25  |    0.23    0.23    0.23  |   -0.48   -0.60   -0.45  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.30
+White(26): time 1171
+White(26): otim 1411
+White(26): Kc2
+              time used:   1.00
+        time limit 0.45 (2.25)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         16->   0.33/0.30    -1.33   26. ... Ne2 27. b3 Nd4+ 28. Kd3 Rf5
+                                     29. Re1 Nc6 30. g4 Rxe5 31. Rxe5 Nxe5+
+                                     32. Ke3 Kc6 33. Nb5 a6 34. Nc7 b5 35. Nxa6
+                                     bxc4
+        time=0.33(96%)  nodes=2770327(2.8M)  fh1=92%  pred=0  nps=8.4M
+        chk=60.1K  qchk=82.1K  fp=574.4K  mcp=484.5K  50move=3
+        LMReductions:  1/110.7K  2/67.2K  3/44.2K  4/8.5K  5/257
+        null-move (R):  3/139.2K  4/12.2K  5/161
+        splits=623(401)  aborts=50  joins=222  data=7%(17%)
+terminating SMP processes.
+Black(26): Ne2
+              time used:   0.33
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-P-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-K-| . |<N>| . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.08  |    0.52   -0.17    0.76  |   -0.44    0.25   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.06  |    0.14    0.14    0.14  |   -0.20   -0.20   -0.20  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........  -0.24  |    0.24    0.24    0.24  |   -0.48   -0.60   -0.45  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.07    0.00   -0.10  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.16
+White(27): time 1135
+White(27): otim 1367
+White(27): Kb1
+              time used:   0.89
+        time limit 0.43 (2.15)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.25/0.25    -1.50   27. ... Nd4 28. b3 Nc6 29. Re1 Rf5 30. Nb5
+                                     Rxe5 31. Rxe5 Nxe5 32. Kc2 a6 33. Nc7 Nf7
+                                     34. Ne8 Kc6 35. Nf6 Nxd6 36. Nxh7
+        time=0.25(97%)  nodes=2163837(2.2M)  fh1=92%  pred=0  nps=8.7M
+        chk=36.8K  qchk=52.5K  fp=503.9K  mcp=407.2K  50move=5
+        LMReductions:  1/104.8K  2/63.8K  3/40.9K  4/7.4K  5/202
+        null-move (R):  3/119.8K  4/11.8K  5/263
+        splits=722(410)  aborts=60  joins=312  data=7%(17%)
+terminating SMP processes.
+Black(27): Nd4
+              time used:   0.25
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>|-N-|<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |-P-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-|<N>|   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.08  |    0.52   -0.17    0.76  |   -0.44    0.25   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.30  |    0.14    0.14    0.14  |   -0.44   -0.44   -0.44  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........  -0.33  |    0.15    0.15    0.15  |   -0.48   -0.60   -0.45  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.71
+White(28): time 1108
+White(28): otim 1325
+White(28): Nb5
+              time used:   0.89
+        time limit 0.42 (2.10)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.25/0.25    -1.56   28. ... Nc6 29. Rd2 Nxe5 30. b3 Nc6
+                                     31. Kb2 a6 32. Nc7 Nd4 33. Kc3 Kc6
+                                     34. Nxa6 Kxd6 35. Nb4 Ke5 36. Nc2 Nxc2
+                                     37. Rxc2
+        time=0.25(93%)  nodes=2104669(2.1M)  fh1=92%  pred=0  nps=8.4M
+        chk=40.2K  qchk=56.1K  fp=493.3K  mcp=394.3K  50move=7
+        LMReductions:  1/96.7K  2/64.2K  3/42.7K  4/8.8K  5/399
+        null-move (R):  3/119.6K  4/14.1K  5/403
+        splits=821(507)  aborts=59  joins=314  data=7%(17%)
+terminating SMP processes.
+Black(28): Nc6
+              time used:   0.25
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   |<R>|   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>| . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |-N-|<P>|   |-P-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |-R-| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.08  |    0.52   -0.17    0.76  |   -0.44    0.25   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.07  |    0.12    0.12    0.12  |   -0.19   -0.19   -0.19  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........  -0.25  |    0.23    0.23    0.23  |   -0.48   -0.60   -0.45  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.40
+White(29): time 1083
+White(29): otim 1272
+White(29): Re1
+              time used:   0.95
+        time limit 0.41 (2.05)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.24/0.24    -1.78   29. ... Rf5 30. b3 a6 31. Nc7 Rxe5 32. Rf1
+                                     Rf5 33. Rxf5 gxf5 34. Kb2 Nd4 35. a3 Kc6
+                                     36. Nxa6 Kxd6 37. Kc3 e5 38. g4
+        time=0.24(96%)  nodes=1943953(1.9M)  fh1=92%  pred=0  nps=8.1M
+        chk=36.6K  qchk=57.9K  fp=431.5K  mcp=349.9K  50move=9
+        LMReductions:  1/95.7K  2/61.9K  3/38.3K  4/6.7K  5/270
+        null-move (R):  3/107.8K  4/13.2K  5/464
+        splits=855(554)  aborts=37  joins=301  data=7%(17%)
+terminating SMP processes.
+Black(29): Rf5
+              time used:   0.24
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>| . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |-N-|<P>|   |-P-|<R>| . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.08  |    0.52   -0.17    0.76  |   -0.44    0.25   -0.69  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.07  |    0.12    0.12    0.12  |   -0.19   -0.19   -0.19  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........  -0.19  |    0.19    0.19    0.19  |   -0.38   -0.50   -0.35  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.34
+White(30): time 1057
+White(30): otim 1229
+White(30): Nc3
+              time used:   0.90
+        time limit 0.40 (2.00)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.24/0.24    -1.97   30. ... Rxe5 31. Rxe5 Nxe5 32. b3 Nf7
+                                     33. Ne4 Kc6 34. Nf6 h5 35. Kc2 Kxd6
+                                     36. Kd3 Ne5+ 37. Ke4 Nc6 38. g4 hxg4
+                                     39. Nxg4 Nd4 40. Ne5
+        time=0.24(100%)  nodes=1973218(2.0M)  fh1=93%  pred=0  nps=8.2M
+        chk=34.6K  qchk=46.6K  fp=457.8K  mcp=348.3K  50move=11
+        LMReductions:  1/105.6K  2/67.7K  3/41.7K  4/6.9K  5/259
+        null-move (R):  3/117.3K  4/15.0K  5/746  6/6
+        splits=967(651)  aborts=43  joins=316  data=7%(17%)
+terminating SMP processes.
+Black(30): Rxe5
+              time used:   0.24
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>| . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<N>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-| . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   |-N-|   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.31  |    0.19   -0.43    0.41  |   -0.50    0.11   -0.72  |
+passed pawns...  -0.02  |    0.00    0.00    0.00  |   -0.02    0.00   -0.04  |
+knights........   0.00  |    0.19    0.19    0.19  |   -0.19   -0.19   -0.19  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.08  |    0.29    0.29    0.29  |   -0.21   -0.21   -0.21  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -1.41
+White(31): time 1031
+White(31): otim 1186
+White(31): Ne4
+              time used:   0.87
+        time limit 0.39 (1.95)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         20->   0.44/0.42    -2.33   31. ... Nd4 32. b3 Kc6 33. Kc1 Nf5 34. Kd1
+                                     h5 35. Nf6 Rxe1+ 36. Kxe1 Kxd6 37. g4 Ke7
+                                     38. gxf5 Kxf6 39. fxe6 Kxe6 40. Kd2 d5
+                                     41. Kd3 Ke5 (s=2)
+        time=0.44(90%)  nodes=3848625(3.8M)  fh1=93%  pred=0  nps=8.7M
+        chk=82.6K  qchk=91.2K  fp=1.0M  mcp=524.1K  50move=2
+        LMReductions:  1/171.2K  2/115.7K  3/78.7K  4/13.4K  5/402
+        null-move (R):  3/230.9K  4/30.9K  5/1.2K  6/8
+        splits=1.9K(1.3K)  aborts=113  joins=586  data=9%(17%)
+terminating SMP processes.
+Black(31): Nd4
+              time used:   0.44
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<K>| . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|   |-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-|<N>|-N-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.31  |    0.19   -0.43    0.41  |   -0.50    0.11   -0.72  |
+passed pawns...  -0.02  |    0.00    0.00    0.00  |   -0.02    0.00   -0.04  |
+knights........  -0.16  |    0.28    0.28    0.28  |   -0.44   -0.44   -0.44  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.16  |    0.25    0.25    0.25  |   -0.09   -0.09   -0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.22  |   -0.29    0.00   -0.40  |    0.07    0.00    0.10  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -1.49
+White(32): time 986
+White(32): otim 1149
+White(32): a3
+              time used:   0.81
+        time limit 0.37 (1.85)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.22/0.22    -2.78   32. ... Kc6 33. g4 b5 34. b3 bxc4 35. bxc4
+                                     Nf3 36. Rf1 Rxe4 37. Rxf3 Rxc4 38. Rf7 h5
+                                     39. gxh5 gxh5 40. Kb2 Kxd6
+        time=0.22(96%)  nodes=1828463(1.8M)  fh1=94%  pred=0  nps=8.3M
+        chk=47.1K  qchk=56.7K  fp=490.5K  mcp=216.9K  50move=1
+        LMReductions:  1/74.7K  2/51.9K  3/31.7K  4/4.1K  5/41
+        null-move (R):  3/107.3K  4/13.0K  5/275
+        splits=813(516)  aborts=30  joins=297  data=9%(17%)
+terminating SMP processes.
+Black(32): Kc6
+              time used:   0.22
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   |<P>|<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<P>|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |-P-|<N>|-N-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   |-P-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.27  |    0.23   -0.35    0.44  |   -0.50    0.11   -0.72  |
+passed pawns...  -0.02  |    0.00    0.00    0.00  |   -0.02    0.00   -0.04  |
+knights........  -0.16  |    0.28    0.28    0.28  |   -0.44   -0.44   -0.44  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.16  |    0.25    0.25    0.25  |   -0.09   -0.09   -0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.43  |   -0.29    0.00   -0.40  |   -0.14    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -1.67
+White(33): time 963
+White(33): otim 1118
+White(33): b4
+              time used:   0.73
+        time limit 0.37 (1.85)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.27/0.23    -3.53   33. ... b5 34. bxc5 bxc4 35. Kc1 Nb3+
+                                     36. Kd1 h5 37. g4 Nxc5 38. Nxc5 Rxe1+
+                                     39. Kxe1 Kxc5 40. Kd2 hxg4 41. hxg4 Kd4
+                                     42. g5 e5
+        time=0.27(100%)  nodes=2239850(2.2M)  fh1=94%  pred=0  nps=8.3M
+        chk=59.4K  qchk=81.3K  fp=558.9K  mcp=244.2K  50move=1
+        LMReductions:  1/88.5K  2/59.9K  3/38.2K  4/5.5K  5/50
+        null-move (R):  3/127.0K  4/14.2K  5/292
+        splits=934(600)  aborts=32  joins=334  data=7%(17%)
+terminating SMP processes.
+Black(33): b5
+              time used:   0.27
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |<P>|<P>|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   |-P-|-P-|<N>|-N-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.09  |    0.35   -0.33    0.59  |   -0.44    0.24   -0.68  |
+passed pawns...  -0.02  |    0.00    0.00    0.00  |   -0.02    0.00   -0.04  |
+knights........  -0.16  |    0.28    0.28    0.28  |   -0.44   -0.44   -0.44  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.16  |    0.25    0.25    0.25  |   -0.09   -0.09   -0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.43  |   -0.29    0.00   -0.40  |   -0.14    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -1.49
+White(34): time 934
+White(34): otim 1098
+White(34): bxc5
+              time used:   0.66
+        time limit 0.35 (1.75)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         21->   0.21/0.21    -4.23   34. ... bxc4 35. Kb2 Nb3 36. Re2 Nxc5
+                                     37. Ng3 Rxe2+ 38. Nxe2 Ne4 39. Nc3 Nxd6
+                                     40. g4 Kc5 41. Kc2 Kd4 42. Ne2+ Ke3
+                                     43. Nc3 e5 44. Nd5+ Kd4 45. Nf6 Nb5 46. a4
+        time=0.21(96%)  nodes=1847051(1.8M)  fh1=93%  pred=0  nps=8.8M
+        chk=43.2K  qchk=56.3K  fp=486.9K  mcp=175.5K  50move=1
+        LMReductions:  1/96.2K  2/64.5K  3/40.2K  4/7.9K  5/265
+        null-move (R):  3/113.3K  4/21.0K  5/1.2K  6/21
+        splits=1.6K(1.1K)  aborts=29  joins=440  data=9%(17%)
+terminating SMP processes.
+Black(34): bxc4
+              time used:   0.21
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |-P-|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>|<N>|-N-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |-K-| . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.32  |    0.54   -0.15    0.79  |   -0.22    0.49   -0.48  |
+passed pawns...  -0.40  |    0.00    0.00    0.00  |   -0.40   -0.24   -0.46  |
+knights........  -0.12  |    0.28    0.28    0.28  |   -0.40   -0.40   -0.40  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.16  |    0.25    0.25    0.25  |   -0.09   -0.09   -0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.43  |   -0.29    0.00   -0.40  |   -0.14    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -1.41
+White(35): time 910
+White(35): otim 1058
+White(35): Kb2
+              time used:   0.86
+        time limit 0.35 (1.75)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         21->   0.21/0.21    -4.52   35. ... Nb3 36. Re2 Nxc5 37. Ng3 Rxe2+
+                                     38. Nxe2 Ne4 39. Nc3 Nxd6 40. a4 Kc5
+                                     41. g3 Kd4 42. h4 Ne4 43. Nxe4 Kxe4
+                                     44. Kc3 d5 45. g4 e5 46. g5
+        time=0.21(87%)  nodes=1599648(1.6M)  fh1=92%  pred=0  nps=7.6M
+        chk=38.3K  qchk=49.9K  fp=412.3K  mcp=142.1K  50move=2
+        LMReductions:  1/96.6K  2/62.4K  3/29.3K  4/5.3K  5/281
+        null-move (R):  3/98.9K  4/15.4K  5/1.2K  6/32
+        splits=1.1K(889)  aborts=37  joins=211  data=9%(17%)
+terminating SMP processes.
+Black(35): Nb3
+              time used:   0.21
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |-P-|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>| . |-N-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|<N>| . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   |-K-|   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -0.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.32  |    0.54   -0.15    0.79  |   -0.22    0.49   -0.48  |
+passed pawns...  -0.31  |    0.00    0.00    0.00  |   -0.31   -0.24   -0.34  |
+knights........   0.17  |    0.28    0.28    0.28  |   -0.11   -0.11   -0.11  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.17  |    0.26    0.26    0.26  |   -0.09   -0.09   -0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.21  |   -0.07    0.00   -0.10  |   -0.14    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.80
+White(36): time 888
+White(36): otim 1019
+White(36): Kc3
+              time used:   0.81
+        time limit 0.34 (1.70)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.20/0.20    -5.93   36. ... Nxc5 37. Kd4 Rxe4+ 38. Rxe4 Nxe4
+                                     39. Kxe4 e5 40. Kf3 Kxd6 41. a4 Kc5 42. h4
+                                     d5 43. g4 d4 44. Ke4 a5 45. g5 Kb4 46. h5
+                                     gxh5
+        time=0.20(93%)  nodes=1720365(1.7M)  fh1=91%  pred=0  nps=8.6M
+        chk=40.4K  qchk=44.2K  fp=477.1K  mcp=140.6K  50move=4
+        LMReductions:  1/81.2K  2/52.4K  3/26.0K  4/4.1K  5/99
+        null-move (R):  3/65.2K  4/13.7K  5/1.1K  6/7
+        splits=1.7K(1.2K)  aborts=40  joins=531  data=17%(17%)
+terminating SMP processes.
+Black(36): Nxc5
+              time used:   0.20
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<N>|   |<R>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>| . |-N-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   |-K-|   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -1.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.13  |    0.15   -0.54    0.40  |   -0.28    0.35   -0.51  |
+passed pawns...  -0.22  |    0.00    0.00    0.00  |   -0.22   -0.24   -0.22  |
+knights........   0.01  |    0.28    0.28    0.28  |   -0.27   -0.27   -0.27  |
+bishops........   0.00  |    0.31    0.18    0.36  |   -0.31   -0.18   -0.36  |
+rooks..........   0.17  |    0.26    0.26    0.26  |   -0.09   -0.09   -0.09  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |    0.14    0.00    0.20  |   -0.14    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -2.10
+White(37): time 867
+White(37): otim 971
+White(37): Kd4
+              time used:   0.92
+        time limit 0.33 (1.65)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         20->   0.19/0.19    -6.78   37. ... Rxe4+ 38. Rxe4 Nxe4 39. Kxe4 e5
+                                     40. g4 Kxd6 41. h4 Kc5 42. h5 d5+ 43. Kf3
+                                     d4 44. hxg6 hxg6 45. g5 Kd5 46. Ke2 c3
+                                     47. Kd3 e4+ 48. Kc2 Kc4
+        time=0.19(80%)  nodes=1736270(1.7M)  fh1=92%  pred=0  nps=9.1M
+        chk=33.2K  qchk=24.4K  fp=714.5K  mcp=63.5K  50move=2
+        LMReductions:  1/71.1K  2/43.8K  3/21.5K  4/3.4K  5/193
+        null-move (R):  3/19.7K  4/6.3K  5/604  6/8
+        splits=1.6K(1.1K)  aborts=47  joins=463  data=7%(17%)
+terminating SMP processes.
+Black(37): Rxe4+
+              time used:   0.19
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<N>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>|-K-|<R>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   |-R-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -5.90  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.12  |    0.20   -0.54    0.40  |   -0.32    0.35   -0.51  |
+passed pawns...  -0.31  |    0.00    0.00    0.00  |   -0.31   -0.24   -0.34  |
+knights........  -0.27  |    0.00    0.00    0.00  |   -0.27   -0.27   -0.27  |
+bishops........   0.00  |    0.32    0.18    0.36  |   -0.32   -0.18   -0.36  |
+rooks..........   0.08  |    0.26    0.26    0.26  |   -0.18   -0.18   -0.18  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.16  |    0.31    0.00    0.40  |   -0.15    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -6.35
+White(38): time 847
+White(38): otim 956
+White(38): Rxe4
+              time used:   0.58
+        time limit 0.32 (1.60)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.19/0.19    -6.78   38. ... Nxe4 39. Kxe4 e5 40. g4 Kxd6
+                                     41. h4 Kc5 42. h5 d5+ 43. Kf3 d4 44. hxg6
+                                     hxg6 45. g5 Kd5 46. Ke2 c3 47. Kd3 e4+
+                                     48. Kc2 Kc4
+        time=0.19(98%)  nodes=1939371(1.9M)  fh1=92%  pred=0  nps=10.2M
+        chk=40.5K  qchk=34.4K  fp=782.0K  mcp=65.5K  50move=1
+        LMReductions:  1/73.7K  2/40.7K  3/14.8K  4/453  5/2
+        null-move (R):  3/3.5K  4/1.5K  5/178  6/5
+        splits=1.1K(849)  aborts=39  joins=228  data=9%(17%)
+terminating SMP processes.
+Black(38): Nxe4
+              time used:   0.19
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|<P>| . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>|-K-|<N>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -5.90  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.11  |    0.35   -0.54    0.40  |   -0.46    0.35   -0.51  |
+passed pawns...  -0.45  |    0.00    0.00    0.00  |   -0.45   -0.36   -0.46  |
+knights........  -0.40  |    0.00    0.00    0.00  |   -0.40   -0.40   -0.40  |
+bishops........   0.00  |    0.35    0.18    0.36  |   -0.35   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.19  |    0.38    0.00    0.40  |   -0.19    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -6.65
+White(39): time 826
+White(39): otim 936
+White(39): Kxe4
+              time used:   0.65
+        time limit 0.31 (1.55)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         19->   0.18/0.18    -7.42   39. ... e5 40. Ke3 Kxd6 41. Kd2 Kc5
+                                     42. Kc3 d5 43. Kd2 d4 44. h4 e4 45. h5
+                                     gxh5 46. Kd1 a5 47. Kd2 e3+ 48. Ke2 h4
+                                     49. a4
+        time=0.18(98%)  nodes=1945851(1.9M)  fh1=94%  pred=0  nps=10.8M
+        chk=37.3K  qchk=43.6K  fp=937.3K  mcp=29.9K  50move=1
+        LMReductions:  1/48.9K  2/38.5K  3/21.7K  4/494
+        null-move (R):  3/755  4/320
+        splits=1.7K(1.4K)  aborts=30  joins=248  data=7%(17%)
+terminating SMP processes.
+Black(39): e5
+              time used:   0.18
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |<K>|-P-|   | . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |   |<P>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>| . |-K-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -1.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.01  |    0.40   -0.54    0.40  |   -0.41    0.41   -0.41  |
+passed pawns...  -0.99  |    0.00    0.00    0.00  |   -0.99   -0.80   -0.99  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.20  |    0.40    0.00    0.40  |   -0.20    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -2.72
+White(40): time 806
+White(40): otim 895
+White(40): h4
+              time used:   0.86
+        time limit 0.31 (1.55)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.18/0.18    -7.67   40. ... Kxd6 41. Ke3 Kc5 42. Ke2 d5
+                                     43. Kd1 d4 44. h5 gxh5 45. Kc2 e4 46. Kd1
+                                     a5 47. Kd2 e3+ 48. Ke2 h4 49. a4 c3
+        time=0.18(87%)  nodes=1759110(1.8M)  fh1=93%  pred=0  nps=9.8M
+        chk=35.1K  qchk=34.7K  fp=748.2K  mcp=33.7K  50move=1
+        LMReductions:  1/57.5K  2/36.0K  3/15.8K  4/234
+        null-move (R):  3/1.2K  4/234
+        splits=1.5K(1.1K)  aborts=52  joins=391  data=7%(17%)
+terminating SMP processes.
+Black(40): Kxd6
+              time used:   0.18
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   |<K>|   | . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |   |<P>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>| . |-K-| . |   |-P-|
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -2.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.02  |    0.43   -0.40    0.43  |   -0.41    0.41   -0.41  |
+passed pawns...  -1.03  |    0.00    0.00    0.00  |   -1.03   -0.80   -1.03  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.20  |    0.40    0.00    0.40  |   -0.20    0.00   -0.20  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -3.73
+White(41): time 785
+White(41): otim 836
+White(41): Ke3
+              time used:   1.07
+        time limit 0.30 (1.50)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         18->   0.28/0.24    -8.73   41. ... Kc5 42. Ke2 d5 43. g4 c3 44. h5
+                                     gxh5 45. gxh5 e4 46. a4 d4 47. a5 Kb5
+                                     48. a6 Kxa6 49. Kd1 d3 50. h6
+        time=0.28(95%)  nodes=2815046(2.8M)  fh1=94%  pred=0  nps=10.1M
+        chk=65.9K  qchk=67.4K  fp=1.3M  mcp=36.5K  50move=2
+        LMReductions:  1/70.2K  2/49.4K  3/27.5K  4/660
+        null-move (R):  3/1.8K  4/121
+        splits=1.9K(1.4K)  aborts=96  joins=493  data=7%(17%)
+terminating SMP processes.
+Black(41): Kc5
+              time used:   0.28
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |<P>| . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<K>|   |<P>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>| . |   | . |   |-P-|
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   |-K-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -2.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.02  |    0.43   -0.40    0.43  |   -0.41    0.41   -0.41  |
+passed pawns...  -1.17  |    0.00    0.00    0.00  |   -1.17   -0.80   -1.17  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.20  |    0.20    0.00    0.20  |   -0.40    0.00   -0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -4.27
+White(42): time 756
+White(42): otim 777
+White(42): Ke2
+              time used:   1.06
+        time limit 0.29 (1.45)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         17->   0.33/0.29    -9.17   42. ... d5 43. g4 c3 44. h5 gxh5 45. gxh5
+                                     e4 46. Kd1 d4 47. Kc2 Kc4 48. Kc1 d3
+                                     49. Kd1 Kb3 50. a4 Kxa4
+        time=0.33(90%)  nodes=3434741(3.4M)  fh1=93%  pred=0  nps=10.4M
+        chk=110.5K  qchk=100.8K  fp=1.3M  mcp=59.9K  50move=4
+        LMReductions:  1/108.6K  2/67.8K  3/26.4K  4/577
+        null-move (R):  3/5.7K  4/711
+        splits=2.6K(2.0K)  aborts=127  joins=589  data=9%(17%)
+terminating SMP processes.
+Black(42): d5
+              time used:   0.33
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |   | . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<K>|<P>|<P>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |<P>| . |   | . |   |-P-|
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |-K-| . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -2.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.39  |    0.43   -0.40    0.43  |   -0.82   -0.14   -0.82  |
+passed pawns...  -1.69  |    0.00    0.00    0.00  |   -1.69   -1.20   -1.69  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.50  |   -0.10    0.00   -0.10  |   -0.40    0.00   -0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -5.50
+White(43): time 720
+White(43): otim 723
+White(43): g4
+              time used:   0.98
+        time limit 0.27 (1.35)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         16->   0.16/0.16   -12.43   43. ... c3 44. h5 gxh5 45. gxh5 e4 46. a4
+                                     d4 47. a5 d3+ 48. Ke3 c2 49. Kd2 e3+
+                                     50. Kxe3 c1=Q+ 51. Kxd3 Qh1 52. h6 Qxh6
+        time=0.16(97%)  nodes=1461076(1.5M)  fh1=93%  pred=0  nps=9.1M
+        chk=62.2K  qchk=98.8K  fp=471.4K  mcp=24.3K  50move=1
+        LMReductions:  1/32.3K  2/17.2K  3/6.7K  4/182
+        null-move (R):  3/3.1K  4/705
+        splits=779(559)  aborts=31  joins=220  data=7%(17%)
+terminating SMP processes.
+Black(43): c3
+              time used:   0.16
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |   | . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |<P>| . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<K>|<P>|<P>|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |-K-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -2.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.05  |    0.56   -0.32    0.56  |   -0.61    0.14   -0.61  |
+passed pawns...  -2.50  |    0.00    0.00    0.00  |   -2.50   -1.92   -2.50  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.50  |   -0.10    0.00   -0.10  |   -0.40    0.00   -0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -5.97
+White(44): time 702
+White(44): otim 705
+White(44): h5
+              time used:   0.62
+        time limit 0.27 (1.35)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         16->   0.21/0.18   -17.03   44. ... gxh5 45. gxh5 e4 46. Ke1 e3
+                                     47. Kd1 d4 48. a4 a5 49. Ke1 c2 50. Ke2
+                                     c1=Q 51. Kf3 Qh1+ 52. Ke2 Qxh5+ 53. Ke1
+        time=0.21(96%)  nodes=1871192(1.9M)  fh1=91%  pred=0  nps=8.9M
+        chk=98.4K  qchk=149.0K  fp=618.6K  mcp=21.7K  50move=1
+        LMReductions:  1/41.2K  2/18.0K  3/5.7K  4/252
+        null-move (R):  3/5.0K  4/976
+        splits=1.2K(622)  aborts=42  joins=565  data=9%(17%)
+terminating SMP processes.
+Black(44): gxh5
+              time used:   0.21
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |   | . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<K>|<P>|<P>|   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |-K-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -3.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.02  |    0.36   -0.40    0.36  |   -0.38    0.44   -0.38  |
+passed pawns...  -2.50  |    0.00    0.00    0.00  |   -2.50   -1.92   -2.50  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.50  |   -0.10    0.00   -0.10  |   -0.40    0.00   -0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -6.94
+White(45): time 679
+White(45): otim 672
+White(45): gxh5
+              time used:   0.76
+        time limit 0.26 (1.30)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         15->   0.16/0.16   -23.56   45. ... e4 46. Kd1 e3 47. Ke2 Kd4 48. Kd1
+                                     Kd3 49. Ke1 c2 50. Kf1 c1=Q+ 51. Kg2 e2
+                                     52. a4 e1=Q 53. Kh3
+        time=0.16(97%)  nodes=1806691(1.8M)  fh1=93%  pred=0  nps=11.3M
+        chk=109.6K  qchk=179.9K  fp=664.6K  mcp=9.9K  50move=1
+        LMReductions:  1/28.9K  2/11.9K  3/3.3K  4/179
+        null-move (R):  3/5.0K  4/966
+        splits=813(400)  aborts=39  joins=413  data=7%(17%)
+terminating SMP processes.
+Black(45): e4
+              time used:   0.16
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |   | . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<K>|<P>| . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |<P>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   |<P>|   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |-K-| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -2.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.09  |    0.46   -0.38    0.46  |   -0.55    0.17   -0.55  |
+passed pawns...  -2.53  |    0.00    0.00    0.00  |   -2.53   -1.90   -2.53  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.50  |   -0.10    0.00   -0.10  |   -0.40    0.00   -0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -6.04
+White(46): time 661
+White(46): otim 621
+White(46): Ke3
+              time used:   0.95
+        time limit 0.25 (1.25)
+        depth     time       score   variation (1)
+starting thread 1 <done>
+         14->   0.20/0.18   -Mat11   46. ... d4+ 47. Ke2 d3+ 48. Kd1 e3 49. a4
+                                     e2+ 50. Ke1 Kd4 51. Kf2 c2 52. h6 c1=Q
+                                     53. Kg2 Qf1+ 54. Kg3 e1=Q+ 55. Kg4 Qe4+
+                                     56. Kh5 Qff5#
+        time=0.20(96%)  nodes=2340091(2.3M)  fh1=94%  pred=0  nps=11.7M
+        chk=130.7K  qchk=311.2K  fp=783.4K  mcp=3.0K  50move=2
+        LMReductions:  1/29.0K  2/13.3K  3/3.8K  4/531
+        null-move (R):  3/12.2K  4/1.6K
+        splits=808(433)  aborts=22  joins=375  data=7%(17%)
+terminating SMP processes.
+
+mate in 11 moves.
+
+Black(46): d4+
+              time used:   0.20
+
+       +---+---+---+---+---+---+---+---+
+    8  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|   | . |   | . |   | . |<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   |<K>|   | . |   | . |-P-|
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |<P>|<P>| . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  |-P-|   |<P>|   |-K-|   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    1  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......  -2.95  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.64  |    0.46   -0.38    0.46  |   -1.10   -0.31   -1.10  |
+passed pawns...  -2.94  |    0.00    0.00    0.00  |   -2.94   -2.40   -2.94  |
+knights........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+bishops........   0.00  |    0.36    0.18    0.36  |   -0.36   -0.18   -0.36  |
+rooks..........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........  -0.20  |    0.20    0.00    0.20  |   -0.40    0.00   -0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -6.70
+White(47): ?
+White(47): result 0-1
+White(47): ?
+White(47): force
+White(47): quit
