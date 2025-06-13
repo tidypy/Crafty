@@ -41,7 +41,8 @@ Crafty can be configured for a stronger game by setting some optional parameters
 ***This version of Crafty was compiled to utilize POPCNT. instruction set.***
 
 PARAMETERS: 
-Most GUI's will allow you to set parameters within their Engine management sections.
+
+*Most GUI's will allow you to set parameters within their Engine management sections.*
 However; the original author states, parameters can be put into the crafty.rc file, or used as start-up parameters from the terminal.  
 Created a JSON file in .vscode folder as well. 
 
